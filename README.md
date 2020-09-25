@@ -1,4 +1,6 @@
-# Goal: Learn how to read code like a computer would process it.
+# Code Dojo - Level 0 Boss
+
+## Goal: Learn how to read code like a computer would process it.
 
 I learned early on how to read my code and know how the computer would step through it. This is a critical skill. And it's fun to play with the debugger and watch your code in action.
 
