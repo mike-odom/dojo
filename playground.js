@@ -48,9 +48,10 @@ for (let t = 0; t < 3; t++) {
 }
 
 console.log(cats);
-cats = increase(cats);
 
+cats = increase(cats);
 console.log(cats);
+
 function add(num, by) {
     console.log('adding');
     num += by;
