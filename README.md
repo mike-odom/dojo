@@ -21,4 +21,4 @@ As part of the Engineering Goals dojo, I'm going to have you battle a boss in or
 13. Repeat this until you understand what is happening
 14. If you don't know what is happening, look for a tutorial on that topic
 
-Let me know when you're ready to test. We'll do a mock interview. And the company will ask you to step through this line by line without using the debugger, just your beautiful brain. 
+Let me know when you're ready to test. We'll do a mock interview. And the company will ask you to step through this line by line without using the debugger, just your beautiful brain.
