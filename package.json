@@ -1,0 +1,22 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "Goal: Learn how to read code like a computer would process it.",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-odom/dojo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mike-odom/dojo/issues"
+  },
+  "homepage": "https://github.com/mike-odom/dojo#readme"
+}
