@@ -18,46 +18,46 @@ if (!cold && !morning) {
 }
 
 if (!!cold) {
-  console.log("It is definitely cold");
+  console.log('It is definitely cold');
 }
 
 if (morning || cold) {
-  console.log("Say hi to jim");
+  console.log('Say hi to jim');
 }
 
 if (morning) {
-  console.log("This runs")
+  console.log('This runs');
 }
 
 if (!morning) {
-  console.log("Brush yer teeth");
+  console.log('Brush yer teeth');
 } else {
   console.log("What's going on?");
 }
 
 if (!!false) {
-  console.log("Hello!");
+  console.log('Hello!');
 } else {
-  console.log("Goodbye!");
+  console.log('Goodbye!');
 }
 
-if ("false") {
-  console.log("Wait, what");
+if ('false') {
+  console.log('Wait, what');
 } else {
-  console.log("oh, ok");
+  console.log('oh, ok');
 }
 
-if (!"false") {
-  console.log("Yeah, that");
+if (!'false') {
+  console.log('Yeah, that');
 } else {
-  console.log("oohh");
+  console.log('oohh');
 }
 
 function brushTeeth() {
   status();
 
   if (morning) {
-    console.log("Brush yer teeth");
+    console.log('Brush yer teeth');
   } else {
     console.log("I ain't gotta brush my teeth");
   }
@@ -78,7 +78,9 @@ morning = !!morning;
 brushTeeth();
 
 function status() {
-  console.log(`It is currently ${morning} and it is ${cold ? 'cold' : 'not cold'}`);
+  console.log(
+    `It is currently ${morning} and it is ${cold ? 'cold' : 'not cold'}`
+  );
 }
 
 function getEnergyLevel() {
@@ -103,4 +105,3 @@ function getBetterEnergyLevel() {
 energyLevel = getBetterEnergyLevel();
 
 console.log('Energy level: ', energyLevel);
-
