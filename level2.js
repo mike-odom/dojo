@@ -20,6 +20,12 @@ console.log('addedNums', addedNums);
 addedNums = addNumbers(2 * 3, 2 + 3);
 console.log('addedNums', addedNums);
 
+addedNums = addNumbers(10, 30);
+console.log('addedNums', addedNums);
+
+addNumbers(10, 1);
+console.log('addedNums', addedNums);
+
 function getAge() {
   console.log('Getting age');
   return 5 + 29;
@@ -62,50 +68,7 @@ function addNumbersWithCallbacks(num1callback, num2callback) {
 }
 
 addedNums = addNumbersWithCallbacks(getAge, getGrade);
+console.log('addedNums', addedNums);
 
 addedNums = addNumbersWithCallbacks(getAge(), getGrade);
-
-let orders = [];
-
-function printOrders() {
-  console.log('Orders', orders);
-}
-
-function orderProduct(productId) {
-  orders.push(productId);
-}
-
-printOrders();
-
-orderProduct('strawberries');
-
-orderProduct('bananas');
-
-printOrders();
-
-orderProduct('milk');
-
-orders = [];
-
-printOrders();
-
-const orderPotatoes = () => orderProduct('potatoes');
-
-printOrders();
-
-orderPotatoes();
-
-printOrders();
-
-let potatoes = addNumbersWithCallbacks(orderPotatoes, orderPotatoes);
-console.log('Potatoes', potatoes);
-
-potatoes = addNumbersWithCallbacks(orderPotatoes(), orderPotatoes());
-console.log('Potatoes', potatoes);
-
-function orderProductAsync() {
-  setTimeout(() => orderProduct('potatoes'), 3000);
-}
-
-orderProductAsync();
-printOrders();
+// That last line will fail, see what happens and then fix it
